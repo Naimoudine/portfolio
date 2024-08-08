@@ -1,0 +1,24 @@
+@tailwind base;
+
+@layer base {
+  .btn {
+    @apply px-4 py-1 border rounded-full bg-zinc-800 border-zinc-800/90 hover:border-zinc-600/40;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply mx-4;
+  }
+
+  .navModalLink {
+    @apply text-zinc-300;
+  }
+
+  .pseudo-after {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500; /* exemple de dégradé */
+  }
+}
