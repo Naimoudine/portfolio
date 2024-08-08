@@ -10,7 +10,7 @@ type NavbarProps = {
 export default function Navbar({ setOpenNavModal }: NavbarProps) {
   return (
     <nav className="flex justify-between">
-      <div className="flex gap-4">
+      <div className="flex gap-16">
         <Link to="/">
           <img
             className="w-8 h-8 rounded-full"

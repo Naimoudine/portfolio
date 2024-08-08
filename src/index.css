@@ -10,7 +10,7 @@
 
 @layer utilities {
   .wrapper {
-    @apply mx-4;
+    @apply mx-4 lg:max-w-[80rem] lg:min-w-[80rem] lg:mx-auto;
   }
 
   .navModalLink {
