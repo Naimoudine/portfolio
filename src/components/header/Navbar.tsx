@@ -2,6 +2,7 @@ import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import moi from "../../assets/images/moi.jpg";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 type NavbarProps = {
   setOpenNavModal: React.Dispatch<React.SetStateAction<boolean>>;
@@ -58,8 +59,29 @@ export default function Navbar({ setOpenNavModal }: NavbarProps) {
         </ul>
       </div>
       <div className="items-center hidden gap-4 sm:flex">
-        <Link to="">Linkedin</Link>
-        <button className="btn">Contact</button>
+        <a
+          href="https://www.linkedin.com/in/naimoudine-saidi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="text-xl text-zinc-400 hover:text-primary"
+            icon={faLinkedinIn}
+          />
+        </a>
+        <a
+          href="https://github.com/Naimoudine"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="text-xl text-zinc-400 hover:text-primary"
+            icon={faGithub}
+          />
+        </a>
+        <a href="mailto:naimoudinesaidi@gmail.com" className="btn">
+          Contact
+        </a>
       </div>
       <button
         className="block btn sm:hidden"
