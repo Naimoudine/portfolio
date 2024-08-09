@@ -10,8 +10,8 @@ export default function Projects() {
         <p className="mt-4">
           Here some of my projects that I build or that I took part in building.
         </p>
-        <div className="flex flex-col w-full gap-x-8 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:max-w-[60rem] ">
-          <div className="p-4 mt-8 border rounded-3xl border-zinc-800 h-fit w-full max-w-[25rem] max-h-[30rem] overflow-hidden md:row-span-2 md:self-center">
+        <div className="flex flex-col w-full gap-x-8 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:max-w-[60rem]">
+          <div className="p-4 mt-8 border rounded-3xl border-zinc-800 h-fit w-full max-w-[25rem] max-h-[30rem] overflow-hidden md:row-span-2 md:self-center cusor-pointer">
             <span className="flex items-center gap-2 px-4 py-2 text-xs font-semibold border w-fit border-zinc-600 rounded-3xl bg-zinc-800">
               <div className="w-2 h-2 bg-orange-600 rounded-full" />
               work

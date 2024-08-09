@@ -8,12 +8,15 @@ export default function Projects() {
         <h1 className="text-4xl font-bold text-zinc-200 md:text-5xl">
           Projects that I built or participated in.
         </h1>
-        <p className="mt-8 text-zinc-400 sm:w-[60%]">
+        <p className="mt-8 text-zinc-400">
           Here some project that I built while learning how to code. Some of
           them are personnal and others were made during my different trainings.
         </p>
-        <div className="flex flex-col mt-16 gap-x-8 gap-y-16 sm:flex-row sm:flex-wrap">
-          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] px-6 py-8 overflow-hidden">
+        <div
+          className="flex flex-col mt-16 gap-y-16 sm:flex-row sm:flex-wrap"
+          style={{ gap: "calc(16px + 1%)" }}
+        >
+          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] flex-1 px-6 py-8 overflow-hidden">
             <span className="flex items-center gap-2 px-4 py-2 text-xs font-semibold border w-fit border-zinc-600 rounded-3xl bg-zinc-800">
               <div className="w-2 h-2 bg-orange-600 rounded-full" />
               work
@@ -41,7 +44,7 @@ export default function Projects() {
               />
             </div>
           </article>
-          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] px-6 py-8 overflow-hidden">
+          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] flex-1 px-6 py-8 overflow-hidden">
             <span className="flex items-center gap-2 px-4 py-2 text-xs font-semibold border w-fit border-zinc-600 rounded-3xl bg-zinc-800">
               <div className="w-2 h-2 bg-green-600 rounded-full" />
               personnal
@@ -68,7 +71,7 @@ export default function Projects() {
               />
             </div>
           </article>
-          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] px-6 py-8 overflow-hidden">
+          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] flex-1 px-6 py-8 overflow-hidden">
             <span className="flex items-center gap-2 px-4 py-2 text-xs font-semibold border w-fit border-zinc-600 rounded-3xl bg-zinc-800">
               <div className="w-2 h-2 bg-green-600 rounded-full" />
               personnal

@@ -16,7 +16,7 @@
 
 @layer utilities {
   .wrapper {
-    @apply mx-4 lg:max-w-[80rem] lg:min-w-[80rem] lg:mx-auto;
+    @apply mx-4 min-h-screen flex flex-col 2xl:max-w-[80rem] 2xl:min-w-[80rem] 2xl:mx-auto;
   }
 
   .navModalLink {
