@@ -44,8 +44,7 @@ export default function Projects() {
                 <p className="text-sm">Vite, Tailwindcss</p>
                 <h3 className="mt-2 text-xl font-semibold">Todo list</h3>
                 <p className="mt-4">
-                  Client only app, the goal was to learn vite and how to use
-                  pinia.
+                  Client app, the goal was to learn vite and how to use pinia.
                 </p>
               </div>
               <div
@@ -65,7 +64,7 @@ export default function Projects() {
             <div className="flex flex-row-reverse gap-6">
               <div className="mt-4">
                 <p className="text-sm">Vite, api</p>
-                <h3 className="mt-2 text-xl font-semibold">Todo list</h3>
+                <h3 className="mt-2 text-xl font-semibold">Ip tracker</h3>
                 <p className="mt-4">
                   Frontend mentor challenge, use of IP Geolocalisation to get ip
                   details.
