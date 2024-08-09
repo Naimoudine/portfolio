@@ -16,7 +16,7 @@ export default function NavModal({
     <div
       className={
         openNavModal
-          ? `absolute backdrop-blur bg-black/80 top-0 left-0 z-[1000] h-full w-full text-zinc-400 px-4`
+          ? `absolute backdrop-blur bg-black/80 top-0 left-0 z-[1000] h-full w-full text-zinc-400 px-4 overflow-hidden`
           : `hidden`
       }
     >
