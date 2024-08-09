@@ -2,8 +2,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import moi from "../assets/images/moi.jpg";
+import { useTitle } from "../components/hook/useTitle";
 
 export default function About() {
+  useTitle("About - Naïmoudine Saidi");
+
   return (
     <div className="flex flex-col mt-8 mb-16 lg:gap-24 lg:flex-row md:mb-24 md:mt-24">
       <section className="w-full pb-8 lg:w-2/3">

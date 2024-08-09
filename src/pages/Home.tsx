@@ -1,6 +1,10 @@
+import { useTitle } from "../components/hook/useTitle";
 import Experience from "../components/Home/Experience";
 import Projects from "../components/Home/Projects";
+
 export default function Home() {
+  useTitle("Naïmoudine Saidi");
+
   return (
     <div className="mt-8 md:mt-24">
       <section className="pb-8 border-b border-zinc-800">

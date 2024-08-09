@@ -42,17 +42,17 @@ export default function Projects() {
               personnal
             </span>
             <div className="mt-4">
-              <p className="text-sm font-semibold">Vite, Tailwindcss</p>
-              <h3 className="mt-2 text-xl font-semibold">Todo list</h3>
+              <p className="text-sm font-semibold">
+                Typescript, React, Tailwindcss
+              </p>
+              <h3 className="mt-2 text-xl font-semibold">Portofolio</h3>
             </div>
-            <p className="mt-4">
-              Client-side project aimed at learning Vite and Pinia.
-            </p>
+            <p className="mt-4">Built to showcase my various projects.</p>
             <div className="relative w-full h-[14rem] mt-6 ">
               <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
               <img
                 className="absolute top-0 z-50 w-full h-full border rounded-3xl left-20 border-zinc-800"
-                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723161524/jskyrenbwm1lellzataf.png"
+                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723231177/jsrwdwdmkvfzdxixlp1n.png"
                 alt="screen shot project"
               />
             </div>
