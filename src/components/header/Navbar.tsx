@@ -14,7 +14,7 @@ export default function Navbar({ setOpenNavModal }: NavbarProps) {
       <div className="flex gap-16">
         <Link to="/">
           <img
-            className="w-8 h-8 rounded-full"
+            className="w-8 h-8 border-2 rounded-full border-zinc-600"
             src={moi}
             alt="profil pic of myself"
           />
