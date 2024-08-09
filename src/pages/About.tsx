@@ -10,10 +10,10 @@ export default function About() {
   return (
     <div className="flex flex-col mt-8 mb-16 lg:gap-24 lg:flex-row md:mb-24 md:mt-24">
       <section className="w-full pb-8 lg:w-2/3">
-        <h1 className="text-4xl font-bold w-fit text-zinc-200 md:text-5xl">
+        <h1 className="text-4xl font-bold w-fit text-zinc-200 lg:text-4xl 2xl:text-5xl">
           Hello, I’m Naïmoudine Saidi, Full-Stack Developer
         </h1>
-        <div className="flex flex-col gap-4 mt-8 text-zinc-400 sm:max-w-[80%] sm:text-lg ">
+        <div className="flex flex-col gap-4 mt-8 text-zinc-400 sm:max-w-[80%] 2xl:text-lg ">
           <p>
             Hello, My name is Naïmoudine SAIDI, I am 24 years old, and I am
             currently training to become a fullstack developer.
