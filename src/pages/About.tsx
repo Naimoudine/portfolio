@@ -8,7 +8,7 @@ export default function About() {
   useTitle("About - Naïmoudine Saidi");
 
   return (
-    <div className="flex flex-col mt-8 mb-16 lg:gap-24 lg:flex-row md:mb-24 md:mt-24">
+    <div className="flex flex-col mt-16 mb-16 lg:gap-24 lg:flex-row md:mb-24 md:mt-24">
       <section className="w-full pb-8 lg:w-2/3">
         <h1 className="text-4xl font-bold w-fit text-zinc-200 lg:text-4xl 2xl:text-5xl">
           Hello, I’m Naïmoudine Saidi, Full-Stack Developer

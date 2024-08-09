@@ -6,7 +6,7 @@ export default function Projects() {
   useTitle("Projects - Naïmoudine Saidi");
 
   return (
-    <div className="flex-grow mt-8 md:mt-24">
+    <div className="flex-grow mt-16 md:mt-24">
       <section className="pb-8">
         <h1 className="text-4xl font-bold text-zinc-200 md:text-5xl">
           Projects that I built or participated in.
