@@ -16,7 +16,7 @@ export default function NavModal({
     <div
       className={
         openNavModal
-          ? `absolute backdrop-blur bg-black/80 top-0 left-0 z-60 h-screen w-screen text-zinc-400 px-4`
+          ? `absolute backdrop-blur bg-black/80 top-0 left-0 z-[1000] h-full w-full text-zinc-400 px-4`
           : `hidden`
       }
     >
@@ -35,6 +35,7 @@ export default function NavModal({
                   isActive ? `navModalLink-active` : `navModalLink`
                 }
                 to="/"
+                onClick={() => setOpenNavModal(false)}
               >
                 Home
               </NavLink>
@@ -45,6 +46,7 @@ export default function NavModal({
                   isActive ? `navModalLink-active` : `navModalLink`
                 }
                 to="/about"
+                onClick={() => setOpenNavModal(false)}
               >
                 About
               </NavLink>
@@ -55,6 +57,7 @@ export default function NavModal({
                   isActive ? `navModalLink-active` : `navModalLink`
                 }
                 to="/projects"
+                onClick={() => setOpenNavModal(false)}
               >
                 Project
               </NavLink>

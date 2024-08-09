@@ -17,7 +17,7 @@ export default function Projects() {
               work
             </span>
             <div className="mt-4">
-              <p className="text-sm">
+              <p className="text-sm font-semibold">
                 Harmonia, React, Tailwindcss, Express, SQL, MySQL
               </p>
               <h3 className="mt-2 text-xl font-semibold">Origins Digital</h3>
@@ -27,6 +27,7 @@ export default function Projects() {
               website, I participated writting code frontend and backend
             </p>
             <div className="relative w-full h-[14rem] mt-6 ">
+              <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
               <img
                 className="absolute top-0 z-50 w-full h-full border rounded-3xl left-20 border-zinc-800"
                 src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723160471/mjmqzewolbhhassurmky.png"
@@ -39,20 +40,19 @@ export default function Projects() {
               <div className="w-2 h-2 bg-green-600 rounded-full" />
               personnal
             </span>
-            <div className="flex flex-row-reverse gap-4">
-              <div className="mt-4">
-                <p className="text-sm">Vite, Tailwindcss</p>
-                <h3 className="mt-2 text-xl font-semibold">Todo list</h3>
-                <p className="mt-4">
-                  Client app, the goal was to learn vite and how to use pinia.
-                </p>
-              </div>
-              <div
-                className="relative w-full h-[14rem] mt-6 rounded-3xl border border-zinc-800"
-                style={{
-                  background:
-                    "url('https://res.cloudinary.com/dcogxwg2t/image/upload/v1723161524/jskyrenbwm1lellzataf.png') left/cover",
-                }}
+            <div className="mt-4">
+              <p className="text-sm font-semibold">Vite, Tailwindcss</p>
+              <h3 className="mt-2 text-xl font-semibold">Todo list</h3>
+            </div>
+            <p className="mt-4">
+              Client app, the goal was to learn vite and how to use pinia.
+            </p>
+            <div className="relative w-full h-[14rem] mt-6 ">
+              <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
+              <img
+                className="absolute top-0 z-50 w-full h-full border rounded-3xl left-20 border-zinc-800"
+                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723161524/jskyrenbwm1lellzataf.png"
+                alt="screen shot project"
               />
             </div>
           </div>
@@ -61,21 +61,20 @@ export default function Projects() {
               <div className="w-2 h-2 bg-green-600 rounded-full" />
               personnal
             </span>
-            <div className="flex flex-row-reverse gap-6">
-              <div className="mt-4">
-                <p className="text-sm">Vite, api</p>
-                <h3 className="mt-2 text-xl font-semibold">Ip tracker</h3>
-                <p className="mt-4">
-                  Frontend mentor challenge, use of IP Geolocalisation to get ip
-                  details.
-                </p>
-              </div>
-              <div
-                className="relative w-full h-[14rem] mt-6 rounded-3xl"
-                style={{
-                  background:
-                    "url('https://res.cloudinary.com/dcogxwg2t/image/upload/v1723161965/ky5k6jwosvklsgyvzee2.png') center/cover",
-                }}
+            <div className="mt-4">
+              <p className="text-sm font-semibold">Vite, API</p>
+              <h3 className="mt-2 text-xl font-semibold">Ip Tracker App</h3>
+            </div>
+            <p className="mt-4">
+              Frontend mentor challenge, use of IP Geolocalisation to get ip
+              details.
+            </p>
+            <div className="relative w-full h-[14rem] mt-6 ">
+              <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
+              <img
+                className="absolute top-0 z-50 w-full h-full border rounded-3xl left-20 border-zinc-800"
+                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723161965/ky5k6jwosvklsgyvzee2.png"
+                alt="screen shot project"
               />
             </div>
           </div>

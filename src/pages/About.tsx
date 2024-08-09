@@ -8,7 +8,7 @@ export default function About() {
     <div className="flex flex-col mt-8 mb-16 lg:gap-24 lg:flex-row md:mb-24 md:mt-24">
       <section className="w-full pb-8 lg:w-2/3">
         <h1 className="text-4xl font-bold w-fit text-zinc-200 md:text-5xl">
-          I'am Naïmoudine SAIDI, Fullstack Web Developer.
+          I'am Naïmoudine SAIDI, Fullstack developer based in Valence.
         </h1>
         <div className="flex flex-col gap-4 mt-8 text-zinc-400 sm:max-w-[80%] sm:text-lg ">
           <p>
