@@ -8,7 +8,7 @@ export default function Projects() {
       <section className="pb-8 mt-8 border-b border-zinc-800 md:mt-16">
         <h2 className="text-2xl font-semibold md:text-4xl">Projects</h2>
         <p className="mt-4">
-          Here some of my projects that I build or that I took part in building.
+          Here are some of the projects I've built or contributed to.
         </p>
         <div className="flex flex-col w-full gap-x-8 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:max-w-[60rem]">
           <div className="p-4 mt-8 border rounded-3xl border-zinc-800 h-fit w-full max-w-[25rem] max-h-[30rem] overflow-hidden md:row-span-2 md:self-center cusor-pointer">
@@ -23,8 +23,9 @@ export default function Projects() {
               <h3 className="mt-2 text-xl font-semibold">Origins Digital</h3>
             </div>
             <p className="mt-4">
-              Last group project of the training. This is a OTT freenium
-              website, I participated writting code frontend and backend
+              Final group project of the training: This is a freemium OTT
+              website where I contributed by writing both frontend and backend
+              code.
             </p>
             <div className="relative w-full h-[14rem] mt-6 ">
               <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
@@ -45,7 +46,7 @@ export default function Projects() {
               <h3 className="mt-2 text-xl font-semibold">Todo list</h3>
             </div>
             <p className="mt-4">
-              Client app, the goal was to learn vite and how to use pinia.
+              Client-side project aimed at learning Vite and Pinia.
             </p>
             <div className="relative w-full h-[14rem] mt-6 ">
               <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />

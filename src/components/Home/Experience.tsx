@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <section className="pb-8 mt-8 md:mt-16">
       <h2 className="text-2xl font-semibold md:text-4xl">
-        Experiences & formation
+        Experiences & formations
       </h2>
       <div className=" px-4 sm:px-8 py-4 mt-8 flex flex-col gap-4 border border-zinc-800 rounded-xl max-w-[45rem]">
         <article className="flex items-start justify-between gap-6">

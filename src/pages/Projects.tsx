@@ -9,8 +9,9 @@ export default function Projects() {
           Projects that I built or participated in.
         </h1>
         <p className="mt-8 text-zinc-400">
-          Here some project that I built while learning how to code. Some of
-          them are personnal and others were made during my different trainings.
+          Here are some projects I built while learning to code. Some are
+          personal, while others were created during my various training
+          programs.
         </p>
         <div
           className="flex flex-col mt-16 gap-y-16 sm:flex-row sm:flex-wrap"
@@ -23,8 +24,9 @@ export default function Projects() {
             </span>
             <h2 className="mt-4 text-xl font-semibold">Origins Digital</h2>
             <p className="mt-4">
-              Last group project of the training. This is a OTT freenium
-              website, I participated writting code frontend and backend
+              Final group project of the training: This is a freemium OTT
+              website where I contributed by writing both frontend and backend
+              code.
             </p>
             <a
               className="flex items-center inline-block mt-4 font-semibold text-zinc-200"
@@ -51,7 +53,7 @@ export default function Projects() {
             </span>
             <h2 className="mt-4 text-xl font-semibold">Todo list</h2>
             <p className="mt-4">
-              Client app, the goal was to learn vite and how to use pinia.
+              Client-side project aimed at learning Vite and Pinia.
             </p>
             <a
               className="flex items-center inline-block mt-4 font-semibold text-zinc-200"
