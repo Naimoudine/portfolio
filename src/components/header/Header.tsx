@@ -6,7 +6,7 @@ type HeaderProps = {
 
 export default function Header({ setOpenNavModal }: HeaderProps) {
   return (
-    <div className="py-4">
+    <div className="py-8">
       <Navbar setOpenNavModal={setOpenNavModal} />
     </div>
   );

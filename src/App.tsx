@@ -1,13 +1,14 @@
-import { Outlet, Link } from "react-router-dom";
+import { useState } from "react";
+import { Outlet } from "react-router-dom";
 import Header from "./components/header/Header";
 import NavModal from "./components/NavModal";
-import { useState } from "react";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [openNavModal, setOpenNavModal] = useState(false);
 
   return (
-    <div className="bg-zinc-900 text-white min-h-screen min-w-screen flex flex-col relative">
+    <div className="relative flex flex-col min-h-screen bg-zinc-900 text-zinc-400 min-w-screen">
       <div className="wrapper">
         <NavModal
           openNavModal={openNavModal}
@@ -17,16 +18,7 @@ function App() {
         <main>
           <Outlet />
         </main>
-        <footer>
-          <div>
-            <div>
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/projects">Projects</Link>
-            </div>
-            <p>© 2024 Naïmoudine SAIDI. All rights reserved.</p>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </div>
   );
