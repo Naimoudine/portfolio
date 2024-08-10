@@ -15,7 +15,7 @@ export default function Footer() {
             Projects
           </Link>
         </div>
-        <p className="mt-4 text-sm">
+        <p className="mt-4 text-sm sm:mt-0">
           © 2024 Naïmoudine SAIDI. All rights reserved.
         </p>
       </div>
