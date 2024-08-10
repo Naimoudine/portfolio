@@ -25,6 +25,37 @@ export default function Projects() {
               <div className="w-2 h-2 bg-green-600 rounded-full" />
               personnal
             </span>
+            <h2 className="mt-4 text-xl font-semibold">
+              Jobboard [work in progress]
+            </h2>
+            <p className="mt-4">
+              A jobboard website, the goal was for me to build a project with
+              everything that I learned during the training, authentification,
+              authorization etc.
+            </p>
+            <a
+              className="flex items-center inline-block mt-4 font-semibold text-zinc-200"
+              href="https://github.com/Naimoudine/job-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See more
+              <FontAwesomeIcon className="ml-4 text-sm " icon={faArrowRight} />
+            </a>
+            <div className="relative w-full h-[14rem] mt-6 ">
+              <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
+              <img
+                className="absolute top-0 z-50 w-full h-full border rounded-3xl left-20 border-zinc-800"
+                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723319053/lff381jojxllwpfmlhbf.png"
+                alt="screen shot project"
+              />
+            </div>
+          </article>
+          <article className="shadow-xl rounded-3xl w-full sm:max-w-[30rem] flex-1 px-6 py-8 overflow-hidden">
+            <span className="flex items-center gap-2 px-4 py-2 text-xs font-semibold border w-fit border-zinc-600 rounded-3xl bg-zinc-800">
+              <div className="w-2 h-2 bg-green-600 rounded-full" />
+              personnal
+            </span>
             <h2 className="mt-4 text-xl font-semibold">Portfolio</h2>
             <p className="mt-4">Built to showcase my various projects.</p>
             <a
