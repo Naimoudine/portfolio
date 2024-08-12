@@ -9,7 +9,7 @@ export default function Home() {
     <div className="mt-16 md:mt-24">
       <section className="pb-8 border-b border-zinc-800">
         <h1 className="text-4xl font-bold lg:w-[80%] 2xl:w-full text-zinc-200 md:text-6xl">
-          Fullstack Developer & Web Lover.
+          Full-Stack Developer & Web Lover.
         </h1>
         <p className="mt-8 text-zinc-400 xl:w-[80%]">
           Hey, I’m <span className="text-zinc-100">Naïmoudine Saidi</span>, a
