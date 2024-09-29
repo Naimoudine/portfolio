@@ -26,16 +26,19 @@ export default function Projects() {
               personnal
             </span>
             <h2 className="mt-4 text-xl font-semibold">
-              Jobboard [work in progress]
+              Subscription calendar [work in progress]
             </h2>
+            <p className="mt-2 text-sm font-semibold">
+              React, Tailwind, Framer-Motion
+            </p>
             <p className="mt-4">
-              A jobboard website, the goal was for me to build a project with
-              everything that I learned during the training, authentification,
-              authorization etc.
+              This is a project I saw on X, and I decided to challenge myself by
+              recreating it. It’s a calendar where you can input your
+              subscriptions and see the cost per month.
             </p>
             <a
               className="flex items-center inline-block mt-4 font-semibold text-zinc-200"
-              href="https://github.com/Naimoudine/job-app"
+              href="https://github.com/Naimoudine/subscription-calendar"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,7 +49,7 @@ export default function Projects() {
               <div className="w-[14rem] h-[14rem] rounded-full bg-primary absolute -bottom-48 left-0 blur-[90px]" />
               <img
                 className="absolute top-0 z-50 w-full h-full border rounded-3xl left-20 border-zinc-800"
-                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1723319053/lff381jojxllwpfmlhbf.png"
+                src="https://res.cloudinary.com/dcogxwg2t/image/upload/v1727644279/qa1vmeilubltbgvsdn0q.png"
                 alt="screen shot project"
               />
             </div>
@@ -57,6 +60,7 @@ export default function Projects() {
               personnal
             </span>
             <h2 className="mt-4 text-xl font-semibold">Portfolio</h2>
+            <p className="mt-2 text-sm font-semibold">React, Tailwind</p>
             <p className="mt-4">Built to showcase my various projects.</p>
             <a
               className="flex items-center inline-block mt-4 font-semibold text-zinc-200"
@@ -82,6 +86,9 @@ export default function Projects() {
               work
             </span>
             <h2 className="mt-4 text-xl font-semibold">Origins Digital</h2>
+            <p className="mt-2 text-sm font-semibold">
+              Harmonia, React, Tailwindcss, Express, SQL, MySQL
+            </p>
             <p className="mt-4">
               Final group project of the training: This is a freemium OTT
               website where I contributed by writing both frontend and backend
@@ -111,6 +118,7 @@ export default function Projects() {
               personnal
             </span>
             <h2 className="mt-4 text-xl font-semibold">Todo list</h2>
+            <p className="mt-2 text-sm font-semibold">Vue, Tailwind</p>
             <p className="mt-4">
               Client-side project aimed at learning Vite and Pinia.
             </p>
@@ -138,6 +146,7 @@ export default function Projects() {
               personnal
             </span>
             <h2 className="mt-4 text-xl font-semibold">Ip Tracker App</h2>
+            <p className="mt-2 text-sm font-semibold">Vue, API</p>
             <p className="mt-4">
               Frontend mentor challenge, use of IP Geolocalisation to get ip
               details.
