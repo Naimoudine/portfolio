@@ -71,6 +71,7 @@ export default function About() {
               href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
               target="_blank"
               rel="noreferrer"
+              title="Javascript"
             >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
@@ -83,6 +84,7 @@ export default function About() {
               href="https://developer.mozilla.org/en-US/docs/Web/TypeScript"
               target="_blank"
               rel="noreferrer"
+              title="Typescript"
             >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
@@ -95,6 +97,7 @@ export default function About() {
               href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
               target="_blank"
               rel="noreferrer"
+              title="HTML5"
             >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
@@ -107,6 +110,7 @@ export default function About() {
               href="https://www.w3.org/TR/CSS/#css"
               target="_blank"
               rel="noreferrer"
+              title="CSS3"
             >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
@@ -119,6 +123,7 @@ export default function About() {
               href="https://getbootstrap.com/"
               target="_blank"
               rel="noreferrer"
+              title="Bootstrap"
             >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
@@ -127,7 +132,12 @@ export default function About() {
                 alt="Bootstrap"
               />
             </a>
-            <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://sass-lang.com/"
+              target="_blank"
+              rel="noreferrer"
+              title="Sass"
+            >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
                 width="40"
@@ -135,7 +145,12 @@ export default function About() {
                 alt="Sass"
               />
             </a>
-            <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              rel="noreferrer"
+              title="Tailwindcss"
+            >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
                 width="36"
@@ -143,7 +158,12 @@ export default function About() {
                 alt="TailwindCSS"
               />
             </a>
-            <a href="https://vitejs.dev/" target="_blank" rel="noreferrer">
+            <a
+              href="https://vitejs.dev/"
+              target="_blank"
+              rel="noreferrer"
+              title="Vitejs"
+            >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
                 width="36"
@@ -151,7 +171,12 @@ export default function About() {
                 alt="Vite"
               />
             </a>
-            <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+            <a
+              href="https://vuejs.org/"
+              target="_blank"
+              rel="noreferrer"
+              title="Vuejs"
+            >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
                 width="36"
@@ -159,7 +184,12 @@ export default function About() {
                 alt="Vue"
               />
             </a>
-            <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              rel="noreferrer"
+              title="Reactjs"
+            >
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
                 width="36"
