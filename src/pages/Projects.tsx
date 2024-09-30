@@ -38,7 +38,7 @@ export default function Projects() {
             </p>
             <a
               className="flex items-center inline-block mt-4 font-semibold text-zinc-200"
-              href="https://github.com/Naimoudine/subscription-calendar"
+              href="https://subscription-calendar.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
